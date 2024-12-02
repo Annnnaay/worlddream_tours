@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="мал/worlddreamtours.png" type="image/x-icon">
+    <title>Контакти</title>
+</head>
+<body>
+    <h1>Зв'яжіться з нами тут!</h1>
+    
+	<style>
+        /* Загальні стилі для сторінки */
+        body {
+		 background-color: #FFC0CB;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Стилі для навігаційного меню */
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        /* Стилі для контактної інформації та форми зворотного зв'язку */
+        .contact-container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        /* Стилі для основного контенту */
+        .main-content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Навігаційне меню -->
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="tours.html">Тури</a>
+        <a href="contact.html">Контакти</a>
+		<a href="findus.html">Як нас знайти</a>
+    </nav>
+
+    <!-- Контактна інформація та форма зворотного зв'язку -->
+    <div class="contact-container">
+        <h1>Контакти</h1>
+        
+        <div class="contact-info">
+        
+            <p>Телефон: +38 (012) 345-67-89</p>
+            <p>Email: worlddreamtours@gmail.com</p>
+        </div>
+
+        <h2>Зворотній зв'язок та ваші відгуки</h2>
+        <form action="process_contact_form.php" method="post">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+          <p> <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required></p>
+
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Надіслати">
+        </form>
+    </div>
+
+    <!-- Основний контент -->
+    <div class="main-content">
+        <p>Тут  можете залишати свої коменарі для подальшого опрацювання нашою командою.</p>
+    </div>
+
+</body>
+</html>
